@@ -5,7 +5,9 @@
     "dev": "vite",
     "build": "vite build --base /vite-pug/",
     "serve": "vite preview",
-    "deploy": "npm run build && node ./scripts/deploy.js"
+    "deploy": "npm run build && node ./scripts/deploy.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
